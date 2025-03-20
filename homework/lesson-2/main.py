@@ -3,9 +3,9 @@ my_number = 10
 my_string = "Hello, Python!"
 my_float = 3.14
 
-print("Number:", my_number)
-print("String:", my_string)
-print("Float:", my_float)
+print("My number:", my_number)
+print("My string:", my_string)
+print("My float:", my_float)
 
 
 
@@ -25,17 +25,17 @@ sub_result = a-b
 mult_result = a*b
 div_result = a/b
 
-print("Addition:", add_result)
-print("Subtraction:", sub_result)
-print("Multiplication:", mult_result)
-print("Division:", div_result)
+print("Add result:", add_result)
+print("Sub result:", sub_result)
+print("Mult result:", mult_result)
+print("Div result:", div_result)
 
 
 # 3. Booleans and Comparisons
 #a 
-is_greater = 5>3
-is_equal = 5==3
-is_smaller = 5<3
+is_greater = 5 > 3
+is_equal = 5 == 3
+is_smaller = 5 < 3
 print("Is greater:", is_greater)
 print("Is equal:", is_equal)
 print("Is smaller:", is_smaller)
