@@ -1,14 +1,8 @@
- # 1. Basic Arithmetic Operations
+# 6. Multiplication Table
 
-print ("Assign value to x ")
-x = int (input ()) # Convert input to integer
-
-print ("Assign value to y ")
-y = int (input ()) # Convert input to integer
-
-print ("x = " + str(x))
-print ("y = " + str (y))
-print ("x + y = " + str (x + y))
-print ("x - y = " + str (x - y))
-print ("x * y = " + str (x * y))
-print ("x / y = " + str (x/y))
+print("write any number and I will  give you multiplication table for it")
+chosen_number = int(input())
+something = 1
+while something <= 10 :
+    print(f"{chosen_number} * {something} = {chosen_number * something}")
+    something += 1
