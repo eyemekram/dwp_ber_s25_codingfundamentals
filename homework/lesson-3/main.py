@@ -66,6 +66,7 @@ print ("I am a smart computer, I can count to 10!")
 for number in range (1, 11) :
     print (number)
 
+
 # 6. Multiplication Table
 
 print("write any number and I will  give you multiplication table for it")
@@ -75,3 +76,7 @@ while something <= 10 :
     print(f"{chosen_number} * {something} = {chosen_number * something}")
     something += 1
 
+# Can use range also
+#  for i in range (1,11)
+
+Multiplication Table
