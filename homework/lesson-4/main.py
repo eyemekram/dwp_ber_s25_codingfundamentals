@@ -19,3 +19,12 @@ for item in list_1:
         common_elements.append(item)
 
 print("Common elements:", common_elements)
+
+## Exercise 4:
+all_numbers = [111, 32, -9, -45, -17, 9, 85, -10]
+
+positive_numbers = []
+for item in all_numbers:
+    if item in all_numbers > 0:
+        positive_numbers.append(item)
+print("possitive numbers are:", positive_numbers)
