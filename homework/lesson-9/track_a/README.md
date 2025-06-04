@@ -5,6 +5,14 @@ age = 26
 first_name = "Ada"
 print("I am " + first_name "and I am " + age + " years old")
 
+<!-- reasons -->
+- adding + after first_name
+- str(age)
+- not important: added space before and
+<!-- solution -->
+print("I am " + first_name + " and I am " + str(age) + " years old")
+
+
 # 2. What will be the value of x at the end of these calculations?
 #    (first try to figure it out without printing it!)
 a = 5
