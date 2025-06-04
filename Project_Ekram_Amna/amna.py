@@ -6,6 +6,8 @@ import pandas as pd
 
 path = 'Project_Ekram_Amna/data.csv'
 df = pd.read_csv(path)
+print(df)
+
 
 # Column names
 print(f'Name of columns:{ df.columns}')
@@ -41,6 +43,9 @@ print("The years of experience among all employees ranges between", min_years_ex
 name_department=set(df["Department"])
 print("The name of the deparments are", name_department)
 print("The company has", len(name_department), "departments")
+
+
+
 
 
  
