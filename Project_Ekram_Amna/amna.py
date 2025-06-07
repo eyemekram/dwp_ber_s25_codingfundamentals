@@ -62,8 +62,8 @@ print(department_counts)
 
 # # plt.figure(figsize=(6, 6))  # optional: adjust the size
 plt.pie(department_counts, labels=department_counts.index, autopct='%1.1f%%', startangle=90)
-# plt.title('Percentage of People in Each Department')
-# plt.axis('equal')  # ensures the pie is circular
+plt.title('Percentage of People in Each Department')
+plt.axis('equal')  # ensures the pie is circular
 plt.show()
 
 
